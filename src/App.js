@@ -11,7 +11,7 @@ import sokkaImg from './images/sokka.png'
 function App () {
     return (
         <div>
-            <section className="hero is-small is-success">
+            <section className="hero is-small is-black">
                 <div className="hero-body">
                     <p className="title">Avatar Show</p>
 
@@ -34,7 +34,7 @@ function App () {
                                 name="Katara"
                                 handle="@katara"
                                 image={kataraImg}
-                                description="She a flirt"
+                                description="Waterbending master"
                             />
                         </div>
                         <div className="column is-4">
@@ -42,7 +42,7 @@ function App () {
                                 name="Toph"
                                 handle="@toph"
                                 image={tophImg}
-                                description="she blind af"
+                                description="Blind but powerful earth bender"
                             />
                         </div>
                     </div>
@@ -52,7 +52,7 @@ function App () {
                                 name="Zuko"
                                 handle="@zuko"
                                 image={zukoImg}
-                                description="Zuko is petty"
+                                description="Zuko is a firebender"
                             />
                         </div>
                         <div className="column is-4">
@@ -60,7 +60,7 @@ function App () {
                                 name="uncle Iroh"
                                 handle="@iroh"
                                 image={irohImg}
-                                description="dont fuck with him"
+                                description="Dont f*** with him"
                             />
                         </div>
                         <div className="column is-4">
